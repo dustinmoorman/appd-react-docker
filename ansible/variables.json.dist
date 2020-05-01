@@ -4,7 +4,10 @@
   "required_packages": [
     "openjdk-8-jdk",
     "python3-lxml",
-    "mysql-server",
+    "apt-transport-https",
+    "ca-certificates",
+    "curl",
+    "software-properties-common",
     "unzip"
   ],
   "controller_port": "",
