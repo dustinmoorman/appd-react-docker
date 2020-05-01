@@ -8,6 +8,7 @@
     "apt-transport-https",
     "ca-certificates",
     "curl",
+    "python3-pip",
     "software-properties-common",
     "unzip"
   ],

@@ -165,4 +165,11 @@
         cd "{{ application_directory }}/{{ application_docker_directory }}"
         docker build -t "{{ application_name }}:latest" .
 
-
+    - name: Start container with healthstatus
+      docker_container:
+        name: "{{ application_name }}"
+        image: "{{ application_name }}:latest"
+        state: started
+        ports:
+          - "3001:3001"
+          - "3000:3000"
