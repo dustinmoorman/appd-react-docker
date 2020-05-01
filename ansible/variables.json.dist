@@ -3,6 +3,7 @@
   "controller_host": "",
   "required_packages": [
     "openjdk-8-jdk",
+    "docker-ce",
     "python3-lxml",
     "apt-transport-https",
     "ca-certificates",
