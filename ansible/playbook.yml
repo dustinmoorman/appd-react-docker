@@ -154,3 +154,8 @@
         path: "{{ application_directory }}"
         state: directory
         mode: "0755"
+
+    - name: Checkout application git repository
+      git:
+        repo: "{{ application_git_repository }}"
+        dest: "{{ application_directory }}"
