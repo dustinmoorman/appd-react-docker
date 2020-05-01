@@ -25,5 +25,6 @@
   "netviz_agent_directory": "/opt/appdynamics/networkvisibility",
   "netviz_agent_systemd_service_name": "appd-netviz-agent",
   "application_name": "appd-react-sample",
+  "application_directory": "/opt/appd-react-sample",
   "appdynamics_dir": "/opt/appdynamics"
 }

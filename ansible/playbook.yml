@@ -148,3 +148,9 @@
         name: "{{ netviz_agent_systemd_service_name }}"
         enabled: true
         state: restarted
+
+    - name: Create application directory
+      file:
+        path: "{{ application_directory }}"
+        state: directory
+        mode: "0755"
