@@ -27,5 +27,6 @@
   "application_name": "appd-react-sample",
   "application_directory": "/opt/appd-react-sample",
   "application_git_repository": "https://github.com/dustinmoorman/appd-react-docker.git",
+  "application_docker_directory": "sample",
   "appdynamics_dir": "/opt/appdynamics"
 }
