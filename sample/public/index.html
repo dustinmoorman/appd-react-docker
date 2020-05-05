@@ -15,14 +15,22 @@
                info.PageView = function () {
                    return {
                        userData: {
-                           username: "dustin.moorman@appdynamics.com"
+                           username: getUsername(),
+                           foo: getBar(),
                        }
                    }
                }
           })(config.userEventInfo || (config.userEventInfo = {}))
     })(window['adrum-config'] || (window['adrum-config'] = {}));
     console.log("Index Load");
-    
+
+    function getUsername() {
+      return "dustin.moorman@appdynamics.com";
+    }
+
+    function getBar() {
+      return "bar";
+    }
     </script>
     <script src='//cdn.appdynamics.com/adrum/adrum-4.5.17.2890.js'></script>
     <meta charset="utf-8" />
