@@ -4,8 +4,8 @@ import Widecard from '../components/Widecard';
 class Education extends Component {
     render() {
         return (
-            { window.getVPageData = function () { return "Education"; }}
             <div className="condiv">
+            { window.getVPageData = function () { return "Education"; }}
             <h1 className="subtopic">My Education</h1>
             <Widecard title="M.Tech Software Engineering" where="VIT University" from="July 2017" to="Present"/>
             <Widecard title="SSLC | HSC" where="Islamiah Higher Secondary School" from="2011" to="2017"/>

@@ -8,8 +8,8 @@ import Social from '../components/Social'
 class Home extends Component {
     render() {
         return (
-            { window.getVPageData = function () { return "Home"; }}
             <div className="condiv home">
+            { window.getVPageData = function () { return "Home"; }}
             <img src={profilepic} className="profilepic"></img>
             <ReactTypingEffect className="typingeffect" text={['I am Abdul Wahid Naafi','I am a web developer']} speed={100} eraseDelay={700}/>
             <Social />

@@ -3,8 +3,8 @@ import Social from '../components/Social';
 class Contact extends Component {
     render() {
         return (
-            { window.getVPageData = function () { return "Contact"; }}
             <div className="condiv">
+            { window.getVPageData = function () { return "Contact"; }}
             <h1 className="subtopic">Contact Me</h1>
             <h3>Email  :   naafi96@gmail.com</h3>
             <h3>Instagram   :   @iam_naafi</h3>
