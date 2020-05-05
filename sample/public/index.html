@@ -24,7 +24,7 @@
                  return {
                      userData: {
                          email: "dustin.moorman@gmail.com",
-                         vpageData: getVPageData(context), 
+                         vpageData: getVPageData(),
                      },
                  }
              }
@@ -37,10 +37,7 @@
     }
 
     function getVPageData(context) {
-      if (context == null) {
-        context = "base";
-      }
-      return context;
+      return "base";
     }
 
     function getBar() {
