@@ -9,13 +9,14 @@ class Skills extends Component {
         };
     }
 
+    getVPageData() {
+        return "Skills";
+    }
+
     render() {
         return (
             <div className="condiv skills">
             <h1 className="subtopic">My Skills</h1>
-            <script>function getVPageData() {
-              return "Skills"; 
-            } </script>
             <ul>
             {this.state.myskills.map((value)=>{
                 return <li>{value}</li>
