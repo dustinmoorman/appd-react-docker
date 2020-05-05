@@ -13,7 +13,9 @@ class Skills extends Component {
         return (
             <div className="condiv skills">
             <h1 className="subtopic">My Skills</h1>
-            <script>function getVPageData() { return "Skills"; } </script>
+            <script>function getVPageData() {
+              return "Skills"; 
+            } </script>
             <ul>
             {this.state.myskills.map((value)=>{
                 return <li>{value}</li>
