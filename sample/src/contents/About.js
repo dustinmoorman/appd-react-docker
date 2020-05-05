@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
+            { window.getVPageData = function () { return "About"; }}
             <div className="condiv">
             <h1 className="subtopic">About Me</h1>
             <h4>Hey there,</h4>
