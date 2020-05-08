@@ -168,9 +168,8 @@
 
         [Service]
         WorkingDirectory={{ application_directory }}/{{ application_docker_directory }}
-        ExecStartPre=/usr/bin/docker stop %n
-        ExecStartPre=/usr/bin/docker rm %n
         ExecStart=/usr/bin/docker run -p "3001:3000" --name %n --rm -v {{ application_directory }}/{{ application_docker_directory }}:/app -v /app/node_modules -e CHOKIDAR_USEPOLLING=true "{{ application_name }}:latest"
+        ExecStop=/usr/bin/docker stop %n
 
         [Install]
         WantedBy=multi-user.target
