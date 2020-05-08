@@ -27,6 +27,7 @@
   "netviz_agent_directory": "/opt/appdynamics/networkvisibility",
   "netviz_agent_systemd_service_name": "appd-netviz-agent",
   "application_name": "appd-react-sample",
+  "docker_application_systemd_service_name": "react-docker",
   "application_directory": "/opt/appd-react-sample",
   "application_git_repository": "https://github.com/dustinmoorman/appd-react-docker.git",
   "application_docker_directory": "sample",
