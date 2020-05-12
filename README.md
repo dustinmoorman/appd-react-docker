@@ -10,6 +10,12 @@ This repository is intended to be a reference on how to take a SPA (Single Page 
 - [Website Performance Optimization](https://www.keycdn.com/blog/website-performance-optimization)
 - [High Performance Browser Networking](https://hpbn.co/)
 
+## Additional Web Performance Tools
+
+- [YSlow](http://yslow.org/)
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+- [pmeenan/spof-o-matic](https://github.com/pmeenan/spof-o-matic)
+
 ## Attribution
 
 The React SPA used in this repository is [naaficodes](https://github.com/naaficodes) [Portfolio Website ReactJS](https://github.com/naaficodes/Portfolio_Website_ReactJS). 
