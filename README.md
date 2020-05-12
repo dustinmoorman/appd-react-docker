@@ -8,6 +8,7 @@ This repository is intended to be a reference on how to take a SPA (Single Page 
 - [Understanding the Critical Rendering Path](https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a)
 - [HTTP Cache Headers](https://www.keycdn.com/blog/http-cache-headers)
 - [Website Performance Optimization](https://www.keycdn.com/blog/website-performance-optimization)
+- [High Performance Browser Networking](https://hpbn.co/)
 
 ## Attribution
 
